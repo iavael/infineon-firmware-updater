@@ -7,10 +7,11 @@ https://gsdview.appspot.com/chromeos-localmirror/distfiles/infineon-firmware-upd
 
 Patches:
 https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/chromeos-base/infineon-firmware-updater/
+https://raw.githubusercontent.com/pcengines/apu2-documentation/master/docs/research/openssl_1_1_0.patch
 
 ## Build
 Requirements: 
-* openssl-1.0
+* openssl-1.1
 ```sh
 cd TPMFactoryUpd
 make
