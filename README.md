@@ -1,14 +1,6 @@
 # Infineon firmware updater
 Infineon TPM firmware updater for Linux with Google patches
 
-## Source
-Main archive:
-https://gsdview.appspot.com/chromeos-localmirror/distfiles/infineon-firmware-updater-1.1.2459.0.tar.gz
-
-Patches:
-https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/chromeos-base/infineon-firmware-updater/
-https://raw.githubusercontent.com/pcengines/apu2-documentation/master/docs/research/openssl_1_1_0.patch
-
 ## Build
 Requirements: 
 * openssl-1.1
@@ -87,3 +79,11 @@ Parameters:
 -ignore-error-on-complete
   Optional parameter. Ignores TPM_FAIL errors from FieldUpgradeComplete.
 ```
+
+## Sources
+Main archive:
+https://gsdview.appspot.com/chromeos-localmirror/distfiles/infineon-firmware-updater-1.1.2459.0.tar.gz
+
+Patches:
+* https://chromium.googlesource.com/chromiumos/overlays/chromiumos-overlay/+/master/chromeos-base/infineon-firmware-updater/
+* https://raw.githubusercontent.com/pcengines/apu2-documentation/master/docs/research/openssl_1_1_0.patch
