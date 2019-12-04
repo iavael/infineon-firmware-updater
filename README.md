@@ -19,7 +19,7 @@ make
 
 ## HowTo
 
-Thanks to Krystian Hebel (@krystian-hebel) for nice howto
+Thanks to [Krystian Hebel](https://github.com/krystian-hebel) for nice howto
 
 https://blog.3mdeb.com/2019/2019-04-17-roca/
 
