@@ -1,4 +1,4 @@
 .PHONY: build
 
 build:
-  $(MAKE) -C TPMFactoryUpd
+	$(MAKE) -C TPMFactoryUpd all
